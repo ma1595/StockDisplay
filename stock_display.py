@@ -12,7 +12,7 @@ from luma.core.render import canvas
 # from PIL import ImageFont # Example if using custom fonts
 
 # --- Configuration ---
-STOCK_TICKERS = ['COF', 'SPY', 'QQQ']
+STOCK_TICKERS = ['COF', '^GSPC', 'QQQ']
 STOCK_UPDATE_INTERVAL_S = 60  # How often to fetch new stock data (in seconds)
 ANIMATION_FRAME_INTERVAL_S = 0.2 # How often to update display/animation (if implemented)
 # Set this to 1.0 if no animation for slower updates, but >= STOCK_UPDATE_INTERVAL_S makes no sense
